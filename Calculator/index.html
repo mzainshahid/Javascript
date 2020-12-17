@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cal">
+            <h1 class="main">Calculator</h1>
+            <input type="text" id="textinp">
+            <table id="button">
+                <tr>
+                    <td><button value=")" onclick="addEvent(')');">)</button></td>
+                    <td><button value="(" onclick="addEvent('(');">(</button></td>
+                    <td><button value="C" onclick="allClear('C');">C</button></td>
+                    <td><button value="%" onclick="addEvent('%');">%</button></td>
+                </tr>
+                <tr>
+                    <td><button value="9" onclick="addEvent('9');">9</button></td>
+                    <td><button value="8" onclick="addEvent('8');">8</button></td>
+                    <td><button value="7" onclick="addEvent('7');">7</button></td>
+                    <td><button value="x" onclick="addEvent('*');">x</button></td>
+                </tr>
+                <tr>
+                    <td><button value="6" onclick="addEvent('6');">6</button></td>
+                    <td><button value="5" onclick="addEvent('5');">5</button></td>
+                    <td><button value="4" onclick="addEvent('4');">4</button></td>
+                    <td><button value="+" onclick="addEvent('+');">+</button></td>
+
+                </tr>
+                <tr>
+                    <td><button value="3" onclick="addEvent('3');">3</button></td>
+                    <td><button value="2" onclick="addEvent('2');">2</button></td>
+                    <td><button value="1" onclick="addEvent('1');">1</button></td>
+                    <td><button value="-" onclick="addEvent('-');">-</button></td>
+                </tr>
+                <tr>
+                    <td><button value="0" onclick="addEvent('0');">0</button></td>
+                    <td><button value="." onclick="addEvent('.');">.</button></td>
+                    <td><button value="/" onclick="addEvent('/');">/</button></td>
+                    <td><button value="=" onclick="Solution('=');">=</button></td>
+                </tr>
+
+            </table>
+            <h5>
+                Developed by Zain
+            </h5>
+
+        </div>
+    </div>
+</body>
+<script src="./App.js"></script>
+
+</html>
